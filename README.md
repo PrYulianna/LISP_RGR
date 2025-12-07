@@ -14,5 +14,5 @@
 3. Порівняти результати роботи програми мовою Common Lisp с розрахунками 
 іншими засобами
  ## Варіант 5 (21)
-![alt text](<task.png> "Logo Title Text 1")
+![alt text](<task.png> "TASK")
  ## Лістинг
