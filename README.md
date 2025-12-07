@@ -15,7 +15,7 @@
 іншими засобами
  ## Варіант 5 (21)
 ![alt text](<task.png> "TASK")
- ## Лістинг
+ ## Реалізація програми мовою Common Lisp
 ```lisp
 (defun F_f ()
   (let ((F (make-array 21 :initial-element 0.0)))
@@ -30,6 +30,10 @@
          (setf (aref F i)
                (/ (* (aref F (1- i)) (log i)) 8))) F))
 
+```
+
+## Реалізація тестових утиліт і тестових наборів
+```lisp
 (defun printr (F)
   (format t "~%F(i):~%")
   (loop for i from 1 to 20 do
@@ -38,8 +42,6 @@
 (defun main ()
   (let ((result (F_f)))
     (printr result)))
-
-(main)
 ```
 
  ## Результати виконання програми
